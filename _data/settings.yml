@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 
-title: WANNAGAMES
+title: WANNA GAMES
 logo:
 author: themefisher
 description: Welcome my friend.
@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Happy <br> Game designer
+  hero-title: Hi! I’m <br> Happy <br> Game Maker
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: Playing games not only brings joy, but also helps exercise the brain. <br> Making games more meaningful is the goal of WannaGames. We plan to deliver <font color="#FF0000"> knowledge </font> through game content, so that everyone can  <font color="#FF0000"> learn and grow </font>while having fun. <br> So, let's play games together! Come on!<br>
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -73,15 +73,15 @@ work-process:
 team:
   - title: "TuTu"
     image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
+    designation: "Project Terminator"
 
   - title: "Karin"
     image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
+    designation: "Game Developer"
 
   - title: "BenBen"
     image: "assets/images/team/member-3.png"
-    designation: "Designer"
+    designation: "Cheerleader"
 
 #-------------------------------
 # Skills Section
