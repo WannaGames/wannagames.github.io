@@ -47,7 +47,9 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
+        {% if site.data.settings.client-slider-items %}
         <h2 class="section-title">My Clients</h2>
+        {% endif %}
       </div>
     </div>
     {% include client-slider.html %}

@@ -6,22 +6,51 @@
         <h2 class="section-title">{{ site.data.settings.contact-title }}</h2>
       </div>
       <div class="col-lg-8 mx-auto">
+        <!-- <iframe height="1200" width="800" src="https://wj.qq.com/s2/11742258/1cfc/" frameborder="0" ></iframe> -->
+        <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKP1hl5qCiP1Ac2iH19gqvGRj8y1uHh4Gcnt7FfJ1WC7uTRw/viewform?embedded=true" width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">正在加载…</iframe>         -->
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="https://formspree.io/{{ site.data.settings.contact-email }}" method="POST" class="row">
+          <!-- <form action="https://formspree.io/{{ site.data.settings.contact-email }}" method="POST" class="row"> -->
+          <form action="https://formspree.io/f/mjvdwoyq" method="POST" class="row">
+
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
-              <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
             </div>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Type Message Here"></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button type="submit" class="btn btn-primary w-100">send</button>
+              <button type="submit" class="btn btn-primary w-100">Send</button>
             </div>
+          </form>
+          <!-- <form action="https://formspree.io/f/mjvdwoyq" method="POST">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div> -->
+            <!-- <label>
+              Your email:
+              <input type="email" name="email">
+            </label> -->
+            <!-- <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label> -->
+            <!-- your other form fields go here -->
+            <!-- <div class="col-lg-6 col-10 mx-auto">
+              <button type="submit" class="btn btn-primary w-100">Send</button>
+            </div> -->
+            <!-- <button type="submit">Send</button> -->
           </form>
         </div>
       </div>
